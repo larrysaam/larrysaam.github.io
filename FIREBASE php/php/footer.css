@@ -1,0 +1,56 @@
+
+/* footer section */
+
+#footer{
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+    clear: both;
+}
+
+ul{
+    float: left;
+    margin-left: 180px;
+}
+
+.socials-list li{
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    display: block;
+    margin-top: 10px;
+}
+
+.socials-list a{
+    text-decoration: none;
+    color: white;
+}
+
+.category_footer li{
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    display: block;
+    margin-top: 10px;
+}
+
+.category_footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.contacts li{
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    display: block;
+    margin-top: 10px;
+}
+
+.copyright{
+    font-size: 18px;
+    color: white;
+    left: 0px;
+}
+
+

@@ -1,0 +1,12 @@
+
+/*  banner */
+
+section #banner{
+    height: 100%;
+    width: 100px;
+}
+
+#banner img{
+    height: 100%;
+    width: 100%;
+}

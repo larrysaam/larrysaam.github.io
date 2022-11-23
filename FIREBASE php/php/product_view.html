@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="product_view.css">
+        <link rel="stylesheet" href="navigation_bar.css">
+        <meta name="viewport" content="width=device-width,initial=1.0">
+        <meta name="description" content="sample e-commerce website">
+        <meta name="author" content="Larrien">
+        <title>E-COMMERCE</title>
+    </head>
+    <body>
+         <!-- navigation bar -->
+         <nav>
+            <label><span>LOGO</span></label>
+            <ul>
+                <li><button href="#" id="cart_btn" onclick="goto_cart_page()">cart</button></li>
+                <li><a href="faynd.html">HOME</a></li>
+                <li><a href="#">PROMO</a></li>
+                <li><a href="#">SERVICES</a></li>
+            </ul>
+        </nav>
+
+        <!-- product section -->
+        <section id="product_page">
+            <div class="img_div">
+                <ul>
+                    <li><button id="previous_img" onclick="prev_img()"><b><</b></button></li>
+                    <li><img src="banner.jpg" alt="product" id="product_img"></li>
+                    <li><button id="next_img" onclick="next_img()"><b>></b></button></li>
+                </ul>
+                <button id="img_number">1</button>
+            </div>
+            <script src="image_slider.js"></script>
+            <div class="product_details">
+                <h1><b>Iphone 13</b></h1>
+                <p class="description">latest apple product. made in usa and assembled in china.
+                    latest apple product. made in usa and assembled in china.
+                    latest apple product. made in usa and assembled in china.
+                    latest apple product. made in usa and assembled in china.
+                </p>
+                <b class="quantity">Quantity left: 20</b>
+
+                <!-- options (color/ sizes) -->
+                <label for="options"><span style="font-weight: bold;">COLOR :</span></label>
+                <select id="options">
+                    <option value="-choose a color">-Choose a color</option>
+                    <option value="red">Red</option>
+                    <option value="blue">Blue</option>
+                    <option value="black">Black</option>
+                </select>
+
+                <!-- quantity selector -->
+                <label><span style="font-weight: bold; font-size: 20px;">Quantity :</span></label>
+                <div class="qty_div"><button id="qty_btn" onclick="redu()">-</button><button id="qty_num">1</button><button id="qty_btn" onclick="incre()">+</button></div>
+                <b class="price">200,000 CFA</b>
+                <button id="add_to_cart_btn">Add to Cart</button>
+            </div>
+            <script src="quantity.js"></script>
+        </section>
+
+       <!-- recommendation -->
+        <section class="recommendation">
+            <label><h2>RECOMMENDATION</h2></label>
+            
+            <div class="item">
+                <img src="banner.jpg" alt="item" id="item_image">
+                <b id="item_name">iphone 13</b>
+                <P id="item_description">latest apple product. made in usa and assembled in china.</P>
+                <b id="item_price">200,000 CFA</b>
+                <button id="add_to_cart">Add to Cart</button>
+            </div>
+            <div class="item">
+                <img src="banner.jpg" alt="item" id="item_image">
+                <b id="item_name">iphone 13</b>
+                <P id="item_description">latest apple product. made in usa and assembled in china.</P>
+                <b id="item_price">200,000 CFA</b>
+                <button id="add_to_cart">Add to Cart</button>
+            </div>
+            <div class="item">
+                <img src="banner.jpg" alt="item" id="item_image">
+                <b id="item_name">iphone 13</b>
+                <P id="item_description">latest apple product. made in usa and assembled in china.</P>
+                <b id="item_price">200,000 CFA</b>
+                <button id="add_to_cart">Add to Cart</button>
+            </div>
+        </section>
+    </body>
+</html>

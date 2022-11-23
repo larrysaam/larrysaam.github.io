@@ -1,0 +1,156 @@
+/*  product  */
+
+#product{
+    width: 100%;
+    min-height: 100%;
+    margin-top: 100px;
+    overflow-y: auto;
+    margin-bottom: 100px;
+}
+
+.product_section{
+    font-size: 40px;
+    margin-left: 400px;
+}
+
+/* aside /category/ */
+
+.category{
+    float: left;
+    border: 2px solid black;
+    text-align: center;
+    width: 25%;
+    height: 70%;
+    margin-top: 50px;
+}
+
+#category_label{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.items{
+    float: right;
+    border: 2px solid gray;
+    width: 70%;
+    min-height: 100%;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+/* item boxes*/
+
+.item{
+    height: 400px;
+
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 100px;
+    box-shadow: 5px 5px 5px 5px gray;
+    border: none;
+    font-family: monospace;
+    text-align: center;
+    float: left;
+    display: flexbox;
+}
+
+.item:hover{
+    background-color: rgb(230, 227, 227);
+    transform: translateY(-20px);
+    transition: 0.4s;
+}
+
+#item_image{
+    height: 200px;
+    width: 200px;
+}
+
+#item_name{
+    color: black;
+    font-size: 20px;
+}
+
+#item_description{
+    color: gray;
+    font-size: 15px;
+}
+
+#item_price{
+    color: black;
+    font-size: 20px;
+}
+
+#add_to_cart{
+    color: white;
+    font-size: 16px;
+    background-color: gray;
+    height: 40px;
+    width: 150;
+    margin-top: 20px;
+    border-radius: 15px;
+    border: none;
+}
+
+#add_to_cart:hover{
+    color: black;
+    background-color: orange;
+}
+
+/* pages button */
+
+.pages{
+    align-items: center;
+    margin-top: 140px;
+    margin-left: 200px;
+    float: left;
+    display: block;
+}
+
+button{
+    display: inline-block;
+    border-radius: 25px;
+    font-size: 18px;
+}
+
+button:hover{
+    color: white;
+    background-color: black;
+}
+
+#previous-page{
+    height: 50px;
+    width: 50px;
+    color: black;
+    border: 1px solid gray;
+    margin-right: 60px;
+}
+
+#previous-page:hover{
+    color: white;
+}
+
+#next-page{
+    height: 50px;
+    width: 50px;
+    color: black;
+    border: 1px solid gray;
+    margin-left: 60px;
+}
+
+#next-page:hover{
+    color: white;
+}
+
+#page{
+    height: 50px;
+    width: 50px;
+    color: black;
+    border: 1px solid gray;
+    margin-left: 20px;
+}
+
+#page:hover{
+    color: white;
+}

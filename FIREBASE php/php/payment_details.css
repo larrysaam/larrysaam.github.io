@@ -1,0 +1,57 @@
+.user_info{
+    height: 110%;
+    width: 50%;
+    margin: auto;
+    border: 3px solid orange;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+    background-color: orange;
+}
+
+input{
+    height: 50px;
+    width: 50%;
+    border: NONE;
+    border-radius: 25px;
+    padding: 5px;
+    font-size: 18px;
+    font-family: monospace;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+input:hover{
+    width: 55%;
+    transition: 0.5s;
+}
+
+label{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+#NIC_front_img{
+    height: 150px;
+    width: 150px;
+    border: 2px solid white;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+
+/* payment detail */
+
+.payment_detail{
+    height: 40%;
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+    border: 3px solid orange;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+    background-color: orange;
+}

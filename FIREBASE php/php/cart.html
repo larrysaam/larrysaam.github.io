@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="cart.css">
+        <link rel="stylesheet" href="cart_navigation_bar.css">
+        <title>e-commerce cart page</title>
+    </head>
+    <body>
+         <!-- cart navigation bar -->
+         <nav>
+            <label><span>CART</span></label>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">SERVICES</a></li>
+            </ul>
+        </nav>
+
+        <section class="cart">
+            <div class="item_in_cart">
+                <div class="item_detail">
+                    <img src="banner.jpg" alt="item" id="item_image">
+                    <h2><b>Iphone 13</b></h2>
+                    <P class="color">color: cream white</P>
+                </div>
+                <div class="quantity">
+                    <h3><b>PRICE: 200,000 FCFA</b></h3>
+                    <div class="qty_div"><button id="qty_btn" onclick="redu()">-</button><button id="qty_num">1</button><button id="qty_btn" onclick="incre()">+</button> <button id="delete_btn">DEL</button></div>
+                </div>
+            </div>
+            <div class="item_in_cart">
+                <div class="item_detail">
+                    <img src="banner.jpg" alt="item" id="item_image">
+                    <h2><b>Iphone 13</b></h2>
+                    <P class="color">color: cream white</P>
+                </div>
+                <div class="quantity">
+                    <h3><b>PRICE: 200,000 FCFA</b></h3>
+                    <div class="qty_div"><button id="qty_btn" onclick="redu()">-</button><button id="qty_num">1</button><button id="qty_btn" onclick="incre()">+</button> <button id="delete_btn">DEL</button></div>
+                </div>
+                
+            </div>
+            <div class="item_in_cart">
+                <div class="item_detail">
+                    <img src="banner.jpg" alt="item" id="item_image">
+                    <h2><b>Iphone 13</b></h2>
+                    <P class="color">color: cream white</P>
+                </div>
+                <div class="quantity">
+                    <h3><b>PRICE: 200,000 FCFA</b></h3>
+                    <div class="qty_div"><button id="qty_btn" onclick="redu()">-</button><button id="qty_num">1</button><button id="qty_btn" onclick="incre()">+</button> <button id="delete_btn">DEL</button></div>
+                </div>
+                
+            </div>
+            <div class="item_in_cart">
+                <div class="item_detail">
+                    <img src="banner.jpg" alt="item" id="item_image">
+                    <h2><b>Iphone 13</b></h2>
+                    <P class="color">color: cream white</P>
+                </div>
+                <div class="quantity">
+                    <h3><b>PRICE: 200,000 FCFA</b></h3>
+                    <div class="qty_div"><button id="qty_btn" onclick="redu()">-</button><button id="qty_num">1</button><button id="qty_btn" onclick="incre()">+</button> <button id="delete_btn">DEL</button></div>
+                </div>
+                <script src="quantity.js"></script>
+            </div>
+        </section>
+        <section class="total">
+            <h3><b>Total price: 2,000,000 CFA</b></h3>
+            <hr>
+            <button id="buy_btn">BUY NOW</button>
+        </section>
+    </body>
+</html>

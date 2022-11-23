@@ -1,0 +1,108 @@
+/*  item section */
+
+.cart{
+    float: left;
+    width: 70%;
+}
+
+.item_in_cart{
+    height: 200px;
+    width: 100%;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+.item_detail{
+    height: inherit;
+    width: 40%;
+    float: left;
+}
+
+.color{
+    color: gray;
+    font-size: 18px;
+}
+
+#item_image{
+    height: inherit;
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+}
+
+.quantity{
+    height: inherit;
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    float: right;
+    border-left: 1px solid black;
+}
+
+.qty_div{
+    height: 40px;
+    width: 300px;
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 40px;
+}
+
+#qty_btn{
+    height: inherit;
+    width: 40px;
+    color: rgb(75, 75, 209);
+    font-weight: bold;
+    color: black;
+}
+
+
+#qty_num{
+    height: inherit;
+    width: 120px;
+    background-color: white;
+    border: 0.5px solid rgb(75, 75, 209);
+    font-weight: bold;
+    color: black;
+
+}
+
+#delete_btn{
+    color: white;
+    height: 40px;
+    width: 40px;
+    font-weight: bold;
+    background-color: red;
+    margin-left: 40px;
+    border: none;
+}
+
+/*  total price section */
+
+.total{
+    float: right;
+    border: 1px solid black;
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+#buy_btn{
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    margin-top: 30px;
+    font-family: monospace;
+    color: white;
+    background-color: orange;
+    border: none;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+#buy_btn:hover{
+    height: 45px;
+    width: 155px;
+    
+}
